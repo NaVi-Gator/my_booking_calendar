@@ -1,0 +1,363 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Yandex Money\n"
+"POT-Creation-Date: 2018-05-19 15:21+0300\n"
+"PO-Revision-Date: 2018-05-19 15:29+0300\n"
+"Last-Translator: \n"
+"Language-Team: free\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:108
+msgid "Sending messages"
+msgstr "Отправка сообщений"
+
+#: index.php:145
+msgid "Quest settings"
+msgstr "Настройки"
+
+#: index.php:186
+msgid "Reserved"
+msgstr "Зарезервированный"
+
+#: index.php:186
+msgid "Not booked"
+msgstr "Не забронировано"
+
+#: index.php:285
+msgid "List of users"
+msgstr "Список пользователей"
+
+#: index.php:416
+msgid "Settings"
+msgstr "Настройки"
+
+#: index.php:599 index.php:600 index.php:610
+msgid "Quests"
+msgstr "Задания"
+
+#: index.php:601
+msgid "Add quest"
+msgstr "Добавить квест"
+
+#: index.php:602
+msgid "Adding a quest"
+msgstr "Добавление квеста"
+
+#: index.php:603
+msgid "Editing the quest"
+msgstr "Редактирование квеста"
+
+#: index.php:604
+msgid "New quest"
+msgstr "Новый квест"
+
+#: index.php:605
+msgid "Watch the quest"
+msgstr "Смотреть квест"
+
+#: index.php:606
+msgid "Search for quest"
+msgstr "Поиск квеста"
+
+#: index.php:607
+msgid "Not found"
+msgstr "Не найдено"
+
+#: index.php:608
+msgid "Not found in cart"
+msgstr "Не найдено в корзине"
+
+#: module/yandex-money/views/admin_settings.php:18
+msgid "Shop form type"
+msgstr "Тип формы магазина"
+
+#: module/yandex-money/views/admin_settings.php:25
+#: module/yandex-money/views/admin_settings.php:48
+msgid "Off"
+msgstr "Выкл"
+
+#: module/yandex-money/views/admin_settings.php:26
+msgid "Standard form (no agreement)"
+msgstr "Стандартная форма (без соглашения)"
+
+#: module/yandex-money/views/admin_settings.php:27
+msgid "Protocol form (with agreement)"
+msgstr "Форма протокола (с согласия)"
+
+#: module/yandex-money/views/admin_settings.php:41
+msgid "Shop test mode"
+msgstr "Режим тестирования магазина"
+
+#: module/yandex-money/views/admin_settings.php:49
+msgid "On"
+msgstr "Вкл"
+
+#: module/yandex-money/views/admin_settings.php:61
+msgid "Settings for standard form"
+msgstr "Настройки стандартной формы"
+
+#: module/yandex-money/views/admin_settings.php:65
+msgid "Shop account"
+msgstr "Счет в магазине"
+
+#: module/yandex-money/views/admin_settings.php:76
+msgid "Secret"
+msgstr "Секрет"
+
+#: module/yandex-money/views/admin_settings.php:86
+msgid "Payment description"
+msgstr "Описание оплаты"
+
+#: module/yandex-money/views/admin_settings.php:97
+#: module/yandex-money/views/admin_settings.php:192
+msgid "Payment types"
+msgstr "Типы платежей"
+
+#: module/yandex-money/views/admin_settings.php:102
+#: module/yandex-money/views/admin_settings.php:200
+msgid "Yandex Money"
+msgstr "Yandex Money"
+
+#: module/yandex-money/views/admin_settings.php:103
+#: module/yandex-money/views/admin_settings.php:201
+msgid "Credit card"
+msgstr "Кредитная карта"
+
+#: module/yandex-money/views/admin_settings.php:119
+msgid "Settings for protocol form"
+msgstr "Настройки для протокола"
+
+#: module/yandex-money/views/admin_settings.php:123
+msgid "Shop identificator"
+msgstr "Идентификатор магазина"
+
+#: module/yandex-money/views/admin_settings.php:133
+msgid "Showcase identificator"
+msgstr "Идентификатор витрины"
+
+#: module/yandex-money/views/admin_settings.php:143
+msgid "Password"
+msgstr "Пароль"
+
+#: module/yandex-money/views/admin_settings.php:154
+msgid "Success page"
+msgstr "Страница успеха"
+
+#: module/yandex-money/views/admin_settings.php:159
+#: module/yandex-money/views/admin_settings.php:177
+#: module/yandex-money/views/admin_settings.php:238
+#: module/yandex-money/views/admin_settings.php:255
+msgid "Select a page.."
+msgstr "Выберите страницу .."
+
+#: module/yandex-money/views/admin_settings.php:172
+msgid "Fail page"
+msgstr "Сбой страницы"
+
+#: module/yandex-money/views/admin_settings.php:202
+msgid "Terminal"
+msgstr "Терминал"
+
+#: module/yandex-money/views/admin_settings.php:203
+msgid "Mobile phone"
+msgstr "Мобильный телефон"
+
+#: module/yandex-money/views/admin_settings.php:204
+msgid "WebMoney"
+msgstr "WebMoney"
+
+#: module/yandex-money/views/admin_settings.php:205
+msgid "Alfa-Click"
+msgstr "Альфа-Клик"
+
+#: module/yandex-money/views/admin_settings.php:206
+msgid "Sberbank Online"
+msgstr "Сбербанк Онлайн"
+
+#: module/yandex-money/views/admin_settings.php:207
+msgid "MasterPass"
+msgstr "MasterPass"
+
+#: module/yandex-money/views/admin_settings.php:208
+msgid "Promsvyazbank"
+msgstr "Promsvyazbank"
+
+#: module/yandex-money/views/admin_settings.php:209
+msgid "Payment via QIWI Wallet"
+msgstr "Оплата через QIWI-кошелек"
+
+#: module/yandex-money/views/admin_settings.php:210
+msgid "Trust payment (Qppi.ru)"
+msgstr "Доверенный платеж (Qppi.ru)"
+
+#: module/yandex-money/views/admin_settings.php:229
+msgid "Common settings"
+msgstr "Общие настройки"
+
+#: module/yandex-money/views/admin_settings.php:233
+msgid "EShop index page"
+msgstr "Индексная страница EShop"
+
+#: module/yandex-money/views/admin_settings.php:250
+msgid "Cart page"
+msgstr "Корзина"
+
+#: module/yandex-money/views/admin_settings.php:267
+msgid "Email for orders"
+msgstr "Электронная почта для заказов"
+
+#: module/yandex-money/views/admin_settings.php:278
+msgid "Company name"
+msgstr "Название компании"
+
+#: module/yandex-money/views/admin_settings.php:289
+msgid "Protection link"
+msgstr "Защитная ссылка"
+
+#: module/yandex-money/views/admin_settings.php:303
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: module/yandex-money/views/form_protocol.php:12
+#: module/yandex-money/views/form_standard.php:14
+msgid "Click to continue"
+msgstr "Нажмите для продолжения"
+
+#: view/mail_page.php:5
+msgid "Subject"
+msgstr "Тема"
+
+#: view/mail_page.php:14
+msgid "Text"
+msgstr "Текст"
+
+#: view/mail_page.php:16
+msgid "Fields for insertion"
+msgstr "Поля для вставки"
+
+#: view/mail_page.php:31
+msgid "List of recipients"
+msgstr "Список получателей"
+
+#: view/mail_page.php:59
+msgid "Send"
+msgstr "Отправлять"
+
+#: view/seting.php:20
+msgid "Time zone"
+msgstr "Часовой пояс"
+
+#: view/seting.php:30
+msgid "The number of days available in the calendar"
+msgstr "Количество дней, доступных в календаре"
+
+#: view/seting.php:38
+msgid "Temporary blockage (min)"
+msgstr "Временная блокировка (мин)"
+
+#: view/seting.php:47
+msgid "Rules and Policies"
+msgstr "Правила и политика"
+
+#: view/seting.php:58
+msgid "Save"
+msgstr "Сохранить"
+
+#: view/show_blocket_users.php:6 view/show_dey.php:19
+msgid "Remove"
+msgstr "Удалить"
+
+#: view/show_blocket_users.php:8
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: view/show_blocket_users.php:11
+msgid "Name"
+msgstr "Имя"
+
+#: view/show_blocket_users.php:12
+msgid "Surname"
+msgstr "Фамилия"
+
+#: view/show_blocket_users.php:13
+msgid "Phone"
+msgstr "Телефон"
+
+#: view/show_blocket_users.php:15
+msgid "Email"
+msgstr "Email"
+
+#: view/show_blocket_users.php:19
+msgid "Temporary booking"
+msgstr "Временное бронирование"
+
+#: view/show_blocket_users.php:20
+msgid "Event date"
+msgstr "Дата события"
+
+#: view/show_blocket_users.php:24
+msgid "Players"
+msgstr "Игроки"
+
+#: view/show_blocket_users.php:25 view/show_dey.php:36
+msgid "Price"
+msgstr "Цена"
+
+#: view/show_blocket_users.php:25 view/show_dey_page.php:19
+msgid "rub"
+msgstr "руб"
+
+#: view/show_dey.php:17 view/show_dey.php:91
+msgid "Time"
+msgstr "Время"
+
+#: view/show_dey.php:18
+msgid "Number of participants"
+msgstr "Число участников"
+
+#: view/show_dey.php:35
+msgid "Amount"
+msgstr "Количество"
+
+#: view/show_dey.php:73
+msgid "Add time"
+msgstr "Добавить время"
+
+#: view/show_dey.php:78
+msgid "Reservation"
+msgstr "Бронирование"
+
+#: view/show_dey.php:88
+msgid "Date"
+msgstr "Дата"
+
+#: view/show_dey.php:94 view/show_dey_page.php:10
+#: view/show_page_calendar.php:36
+msgid "Number of Players"
+msgstr "Количество игроков"
+
+#: view/show_dey.php:104 view/show_page_calendar.php:45
+msgid "To book"
+msgstr "Бронировать"
+
+#: view/show_dey_page.php:24
+msgid "No schedule created"
+msgstr "Не создано графика"
+
+#: view/show_page_calendar.php:26
+msgid "Booking a quest"
+msgstr "Бронирование квеста"
+
+#: view/show_page_calendar.php:27
+msgid "Date and time of booking"
+msgstr "Дата и время бронирования"

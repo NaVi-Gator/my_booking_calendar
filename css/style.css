@@ -1,0 +1,227 @@
+#tabs table {
+    width: 100%;
+    text-align: center;
+}
+
+#tabs .add_time {
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.add_time_block {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    position: relative;
+
+}
+
+.add_time_block label.active {
+    display: block;
+}
+
+.add_time_block label {
+    position: absolute;
+    top: 100%;
+    background-color: #fff;
+    display: none;
+}
+
+#tabs table tbody[data-dey-marker] > tr:nth-child(even) {
+    background-color: #f6f6f6;
+}
+
+#tabs table tbody[data-dey-marker] > tr {
+    cursor: move;
+    border: 11px solid #dddddd;
+}
+
+tr[data-sort-time] thead th {
+    position: relative;
+}
+
+tr[data-sort-time] thead th input.active {
+    display: block;
+}
+
+tr[data-sort-time] thead th input {
+    position: absolute;
+    bottom: 100%;
+    width: 100%;
+    left: 0;
+    display: none;
+}
+
+.ui-autocomplete-category {
+    font-weight: bold;
+}
+
+.warning {
+    background: #fff;
+    border-left: 4px solid orange;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .1);
+    margin: 5px 15px 2px;
+    padding: 1px 12px;
+}
+
+#users_block_list .user {
+    margin-bottom: 30px;
+    padding: 0;
+    text-align: center;
+    position: relative;
+}
+
+#users_block_list * {
+    font-size: 18px;
+}
+
+#users_block_list .user_info {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    background-color: beige;
+}
+
+#users_block_list .user_info p {
+    width: 40%;
+    display: flex;
+}
+
+#users_block_list * p * {
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+#users_block_list .time_info {
+    background-color: aquamarine;
+}
+
+#users_block_list .users {
+    background-color: aliceblue;
+}
+
+#users_block_list .users,
+#users_block_list .time_info {
+    display: flex;
+    justify-content: space-around;
+}
+
+#users_block_list a {
+    text-decoration: none;
+}
+
+#users_block_list .edit {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    font-weight: bold;
+    border: 1px solid #7c7c7c;
+    border-radius: 10px;
+}
+
+#popup_window {
+    max-width: 600px;
+}
+
+#popup_window .user_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#popup_window .user_info select {
+    width: 40%;
+}
+
+#popup_window .user_info > input {
+    width: 100%;
+    margin: 10px;
+    padding: 5px;
+}
+
+#popup_window .user_info label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#info_block .loader {
+    background-image: url(img/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 356px;
+}
+
+#popup_window .block_button {
+    max-width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+#popup_window .block_button.error_button {
+    background-color: rgba(255, 0, 0, 0.32);
+    cursor: no-drop;
+}
+
+#popup_window .user_info .top label * {
+    width: 100%;
+    text-align: center;
+}
+
+#popup_window .user_info .top label {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 5px;
+    align-items: center;
+}
+
+#popup_window .user_info .top {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#users_block_list div[data-remove],
+#users_block_list div[data-confirm] {
+    position: absolute;
+    right: 5px;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: #fff;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 3px;
+}
+
+#users_block_list div[data-remove] {
+    top: 5px;
+    color: red;
+}
+
+#users_block_list div[data-confirm] {
+    top: 40px;
+    color: green;
+}
+
+.list_fields span {
+    margin: 0 5px;
+    padding: 0 5px;
+}
+
+table.users {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}

@@ -1,0 +1,136 @@
+
+#calendar_list * {
+    padding: 0;
+    margin: 0;
+}
+
+#calendar_list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#calendar_list .item.active {
+    background-color: #faaa0d;
+    color: #000;
+}
+
+#calendar_list .item.active:after {
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    content: " ";
+    border-right: 5px solid transparent;
+    border-top: 5px solid #faaa0d;
+    border-left: 5px solid transparent;
+
+}
+
+#calendar_list *, #info_block *, #popup_window * {
+    padding: 0;
+    margin: 0;
+}
+
+#info_block .schedule, #info_block .quest {
+    margin: 10px 0;
+    padding: 10px 0;
+    border: 1px solid #0f0f0f;
+    border-left: none;
+    border-right: none;
+}
+
+#calendar_list .item {
+    padding: 10px 15px;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    position: relative;
+}
+
+#info_block .quest .top {
+    display: flex;
+    align-items: center;
+}
+
+#info_block .schedule {
+    display: flex;
+    justify-content: space-around;
+}
+
+#info_block .schedule .time {
+    text-align: center;
+    border: 1px solid #0f0f0f;
+    cursor: pointer;
+    margin: 2px;
+    padding: 2px;
+}
+
+#info_block .quest .top a {
+    color: darkgreen;
+    margin: 0 10px;
+}
+
+input.error {
+    border: 1px solid red !important;
+}
+
+input.ok {
+    border: 1px solid green !important;
+}
+
+#popup_window {
+    width: 80%;
+}
+
+#popup_window .user_info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#popup_window .user_info select {
+    width: 40%;
+}
+
+#popup_window .user_info > input {
+    width: 40%;
+    margin: 10px;
+    padding: 5px;
+}
+
+#popup_window .user_info label {
+    width: 100%;
+}
+
+#info_block .loader {
+    background-image: url(img/loader.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    min-height: 356px;
+}
+
+#popup_window .block_button {
+    max-width: 300px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid orange;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+#popup_window .block_button.error_button {
+    background-color: rgba(255, 0, 0, 0.32);
+    cursor: no-drop;
+}
+
+#info_block .schedule .time.disable {
+    background-color: rgba(87, 75, 0, 0.44);
+}
